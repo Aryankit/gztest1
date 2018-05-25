@@ -1,0 +1,293 @@
+/*font import*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Devonshire');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*cloud image continious loop*/
+
+.tech-slideshow {
+    height: 500px;
+    max-width: relative;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow>div {
+    height: 500px;
+    width: 2526px;
+    background: url(cloud.png);
+    position: absolute;
+    top: relative;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+    animation: moveSlideshow 90s linear infinite;
+}
+
+.tech-slideshow .mover-2 {
+    opacity: -1;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -100px;
+    animation: moveSlideshow 100s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}
+
+.backimg {
+    /* The image used */
+    background-image: url("2.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+u {
+    text-decoration: underline;
+}
+
+
+/*slideshow here */
+
+
+/*slideshow ends */
+
+#impression h1 {
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    color: #00F5FF;
+}
+
+#impression p {
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    color: #fcfcfc;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+/*fp-control arrow*/
+
+.fp-controlArrow {
+    border-color: #ff000000 #343a4038 !important;
+}
+
+
+/*SECTOIN 1 2 & 3*/
+
+
+/*section two stuff here*/
+
+.sec2p {
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -130px;
+    padding-right: 100px;
+}
+
+
+/*section 2 stuff ends here*/
+
+.section2 {
+    z-index: -100;
+    font-family: "Lato", sans-serif;
+}
+
+.videolayer {
+    background-color: #fcfcfcd6;
+    margin-top: -180px;
+}
+
+.videolayer h1 {
+    color: #585252;
+    letter-spacing: 2px;
+    font-size: 2em;
+    padding: 20px;
+    padding-left: 250px;
+    margin-right: 150px;
+}
+
+.videolayer p {
+    color: #343a40f7;
+    padding: 20px;
+    margin-top: 25px;
+    padding-left: 250px;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.section .videolayer {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 43%;
+    /* 
+    * Preventing flicker on some browsers 
+    * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+    */
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+/*section three stuff here*/
+
+.section3 {
+    background-color: #EDEDED;
+}
+
+#tickermore {
+    letter-spacing: 3px;
+    font-stretch: 5px;
+}
+
+.sec3h h1 {
+    color: #585252;
+}
+
+.sec3p p {
+    color: #343a40f7;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.sec3p ul li {
+    color: #343a40f7;
+    font-size: 20px;
+    font text-decoration: none;
+}
+
+
+/*sec three stuff ends*/
+
+
+/*video*/
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    /* in case the video doesn't fit the whole page*/
+    background-image: /* our video */
+    ;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    /*cover video background */
+    z-index: 1;
+}
+
+.section2 .layer {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 43%;
+    /* 
+    * Preventing flicker on some browsers 
+    * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+    */
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+
+/*formcontainer*/
+
+.formcontainer {
+    padding: 50px
+}
+
+
+/*section 5*/
+
+.section5 {
+    background-color: #3B3B3B;
+    height: 100px;
+}
+
+.bg1 {
+    /* The image used */
+    background-image: url("bg.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gg1 {
+    color: #37FDFC;
+    letter-spacing: 2px;
+    font-size: 2em;
+    padding: 20px;
+    padding-left: 250px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: 'Devonshire', cursive;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("787288.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gg {
+    color: #585252;
+    letter-spacing: 2px;
+    font-size: 2em;
+    padding: 20px;
+    padding-left: 250px;
+    margin-right: 150px;
+    text-align: center;
+}
